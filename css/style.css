@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.headlights {
+    display: block;
+    padding: 0;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.sitenav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+    float: right;
+
+}
+
+.sitenav li {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 38px;
+}
+
+header{
+    width: 80%;
+    margin: 0 auto;
+    vertical-align: baseline;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.site-identity{
+    float: left;
+    margin: 0 auto;
+}
+
+.site-identity:hover {
+    opacity: .3;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    padding: 2em;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 66%;
+    text-align: right;
+    margin-left: auto;
+}
+
+.heroimage {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.modelsimage {
+    width: 33%;
+    height: auto;
+}
+
+
+.row2 {
+    width: 100%;
+    margin: auto;
+}
+
+.button {
+    border-radius: 12px;
+    border: solid 1px black;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+}
+
+a:hover {
+    font-weight: lighter;
+}
+
+.letsgoplaces {
+    width: 30%;
+    margin-top: 2em;
+}
+
+
+h3 {
+    font-weight: 200;
+    padding: 2em;
+}
+
+.container {
+    width: 100%;
+}
+
+.taillights {
+    width: 33%;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    text-align: right;
+}
+ 
